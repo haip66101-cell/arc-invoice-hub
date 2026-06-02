@@ -9,10 +9,16 @@ USDC invoice registry on Arc testnet.
 
 ## Contract
 
-`src/InvoiceHub.sol` accepts USDC payments and emits payment events for accounting.
+`src/InvoiceHub.sol` records USDC payments and emits accounting events.
 
-## Test
+## Build
 
 ```bash
-forge test -vv
+forge build
 ```
+
+## Deployment
+
+- Contract: `0xe047Fe06fF9E505D49c20B6Ec865E143ae5d3745`
+- Tx: `inferred-from-nonce`
+- Explorer: https://testnet.arcscan.app/address/0xe047Fe06fF9E505D49c20B6Ec865E143ae5d3745
